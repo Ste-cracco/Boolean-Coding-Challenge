@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  background-image:url(Immagini/background.jpg);
+  background-size: cover;
+  font-family: Arial;
+}
+
+.contenitore{
+  width: 65%;
+  height: 700px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.logo_row{
+text-align:center;
+padding-top: 80px;
+}
+
+.logo{
+  width: 210px;
+  height: 96px;
+  text-align: center;
+}
+
+.pay-off{
+  color: #00DD00;
+  font-size: 30px;
+}
+
+.green-row{
+  height: 50px;
+  background-color: #00DD00;
+  text-align: center;
+  padding-top: 15px;
+  margin: 3px 70px 30px;
+}
+
+.monopattino{
+  color: white;
+  font-size: 18px;
+  margin: 10px 70px;
+}
+
+.modello_monopattino{
+  display: inline-block;
+  font-size: 18px;
+}
+
+.info_monopattino{
+  font-size: 15px;
+}
+
+#stato_carica1{
+  width: 35%;
+  height: 30px;
+  background-color: orange;
+  border-radius: 8px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+#stato_carica2{
+  width: 65%;
+  height: 30px;
+  background-color: #1EC31E;
+  border-radius: 8px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
+
+#stato_carica3{
+  width: 20%;
+  height: 30px;
+  background-color: red;
+  border-radius: 8px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+}
